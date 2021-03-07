@@ -1123,8 +1123,9 @@
 // @section machine
 
 // The size of the print bed
+#define Y_HERO_ME_OFFSET 36
 #define X_BED_SIZE 230
-#define Y_BED_SIZE X_BED_SIZE
+#define Y_BED_SIZE X_BED_SIZE - Y_HERO_ME_OFFSET
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
